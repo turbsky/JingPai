@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xcode.lockcapture.fragment.AboutMe">
+
+    <ImageView
+        android:id="@+id/about_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/company_logo"
+        android:background="@color/blue"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/about_my_word"
+        android:layout_below="@id/about_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:padding="3dp"
+        android:text="关于我：Kimmy，非著名不专业Android程序员，目前在.net体系混饭吃。 用过各种手机系统，因为android的开放、鲜活而喜欢上app开发。决心利用所学知识，制作一个隐蔽的拍照App。" />
+
+    <TextView
+        android:id="@+id/about_bonjor"
+        android:layout_below="@id/about_my_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:padding="3dp"
+        android:text="所以，你见到了我：）"
+        />
+    <LinearLayout
+        android:id="@+id/about_ll_suggest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="反馈："
+            android:textSize="16sp"
+            android:textColor="@color/sub_font" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="http://www.cnblogs.com/kimmy"
+            android:autoLink="web"
+            android:textSize="16sp"
+            android:textColor="@color/sub_font" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/about_app_version"
+        android:layout_above="@id/about_ll_suggest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="16sp"
+        android:textColor="@color/gray"
+        android:text="程序版本：1.0.1" />
+</RelativeLayout>

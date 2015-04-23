@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">静拍</string>
+    <string name="warning_camera_not_available">摄像头被其他程序占用，请关闭之后，再启动本程序</string>
+    <string name="warning_image_not_selected">没有选中图片，请点击编辑按钮来勾选图片吧</string>
+    <string name="warning_success">操作成功</string>
+    <string name="warning_fail">操作失败</string>
+    <string name="capture_status_on">服务已启动</string>
+    <string name="capture_status_off">服务已关闭</string>
+    <string name="alert_capture_ready">服务已经开启，使用音量键加或减拍照吧！</string>
+    <string name="alert_capture_off">服务已经关闭，现在系统可以使用拍照程序了</string>
+</resources>

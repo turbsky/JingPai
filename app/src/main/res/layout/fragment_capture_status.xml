@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xcode.lockcapture.fragment.CaptureStatus"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/status_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@color/green">
+
+        <TextView
+            android:id="@+id/status_capture_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:text="@string/capture_status_on" />
+
+
+    </FrameLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:padding="3dp"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                style="@style/setting_font"
+                android:text="切换服务状态" />
+
+            <Switch
+                android:id="@+id/status_change_state"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:checked="true" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="#B7B7B7" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="使用前置摄像头"
+                style="@style/setting_font" />
+
+            <Switch
+                android:id="@+id/status_change_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="#B7B7B7" />
+    </TableLayout>
+
+    <FrameLayout
+        android:id="@+id/flCameraContainer"
+        android:layout_width="1dp"
+        android:layout_height="1dp"></FrameLayout>
+</LinearLayout>

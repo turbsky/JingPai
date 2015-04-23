@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xcode.lockcapture.fragment.AppIntroduce"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/left_double_row"
+        android:text="(=￣ω￣=)，欢迎使用锁屏拍照，请问有什么可以帮到小主你呢：）" />
+
+    <TextView
+        style="@style/right_single_row"
+
+        android:text="怎么拍照？" />
+
+    <TextView
+        style="@style/left_double_row"
+        android:text="使用音量键（加或减均可）拍照，相册里查看劳动成果" />
+
+    <TextView
+        style="@style/right_single_row"
+        android:text="系统的拍照程序打不开了！" />
+
+    <TextView
+        style="@style/left_double_row"
+        android:text="点击功能选项卡，关闭服务。也可以在后台直接清理掉本程序" />
+
+    <TextView
+        style="@style/right_single_row"
+        android:text="拍不了照片！" />
+
+    <TextView
+        style="@style/left_double_row"
+        android:text="确保本程序已开启，且服务已启动。使用home按键来缩小程序（而不是返回键）" />
+
+    <TextView
+        style="@style/right_single_row"
+        android:text="图片导出到什么地方去了？" />
+
+    <TextView
+        style="@style/left_single_row"
+        android:text="导出在手机图片文件夹，JingPai目录下" />
+
+    <TextView
+        style="@style/right_double_row"
+        android:text="无声无闪光灯、无论熄屏还是开着其他程序，都可用音量键拍照，猴赛雷Σ( ° △ °|||)" />
+</LinearLayout>

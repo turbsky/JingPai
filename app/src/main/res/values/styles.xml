@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="action_button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">26dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@color/green</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="img_indicator">
+        <item name="android:layout_width">27dp</item>
+        <item name="android:layout_height">27dp</item>
+        <item name="android:layout_gravity">top|right</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:layout_marginTop">1dp</item>
+    </style>
+
+    <style name="setting_font">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/sub_font</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="msg_left_font">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:background">@drawable/message_left</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="msg_right_font">
+        <item name="android:textColor">@color/sub_font</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:background">@drawable/message_right</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="left_single_row" parent="msg_left_font">
+        <item name="android:layout_height">45dp</item>
+        <item name="android:paddingTop">8dp</item>
+    </style>
+
+    <style name="left_double_row" parent="msg_left_font">
+        <item name="android:layout_height">62dp</item>
+        <item name="android:paddingTop">7dp</item>
+    </style>
+
+    <style name="right_single_row" parent="msg_right_font">
+        <item name="android:layout_height">45dp</item>
+        <item name="android:paddingTop">8dp</item>
+    </style>
+
+    <style name="right_double_row" parent="msg_right_font">
+        <item name="android:layout_height">62dp</item>
+        <item name="android:paddingTop">7dp</item>
+    </style>
+</resources>

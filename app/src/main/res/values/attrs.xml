@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="text_size" format="dimension"/>
+    <attr name="text_select_color" format="color"/>
+    <attr name="text_normal_color" format="color"/>
+    <attr name="item_padding" format="dimension"/>
+    <declare-styleable name="TabView">
+        <attr name="text_size"></attr>
+        <attr name="text_select_color"></attr>
+        <attr name="text_normal_color"></attr>
+        <attr name="item_padding"></attr>
+    </declare-styleable>
+</resources>

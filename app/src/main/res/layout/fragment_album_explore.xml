@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xcode.lockcapture.fragment.AlbumExplore"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/album_title_container"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@android:color/black">
+
+        <Button
+            android:id="@+id/album_btn_change_mode"
+            style="@style/action_button"
+            android:text="编辑" />
+
+        <Button
+            android:id="@+id/album_btn_invert_select"
+            style="@style/action_button"
+            android:text="反选" />
+
+        <Button
+            android:id="@+id/album_btn_export"
+            style="@style/action_button"
+            android:text="导出" />
+
+        <Button
+            android:id="@+id/album_btn_delete"
+            style="@style/action_button"
+            android:background="#8b0000"
+            android:text="删除" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/album_progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:visibility="gone" />
+
+    <GridView
+        android:id="@+id/album_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:horizontalSpacing="@dimen/gridview_image_space"
+        android:verticalSpacing="@dimen/gridview_image_space"
+        android:clipToPadding="false"
+        android:numColumns="3"></GridView>
+
+
+</LinearLayout>
